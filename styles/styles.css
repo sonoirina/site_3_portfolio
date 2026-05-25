@@ -1,1 +1,57 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header*/
+.header {
+  padding: 30px 0;
+}
+
+.grid {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 106px;
+  transform: translate(130px, 20px);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  transform: translate(135px, 20px);
+}
+
+.about p {
+  text-decoration: none;
+
+  color: #263238;
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+.btn {
+  width: 220px;
+  height: 70px;
+
+  background: transparent;
+
+  border: 2px solid #263238;
+  border-radius: 5px;
+
+  font-size: 24px;
+  font-family: Poppins;
+
+  cursor: pointer;
+  transform: translate(119px, 25px);
+}
+/*block 1*/
